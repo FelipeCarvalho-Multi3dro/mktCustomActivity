@@ -1,0 +1,15 @@
+{
+    "workflowApiVersion": "1.1",
+    "name": "Custom Activity - Teste Felipe",
+    "description": "Atividade de testes",
+    "metaData": {
+        "icon": "multiedro_logo.jpg",
+        "category": "custom"
+    },
+    "type": "REST",
+    "userInterfaces": {
+        "configInspector": {
+            "size": "medium"
+        }
+    }
+}
