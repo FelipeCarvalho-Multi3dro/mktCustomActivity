@@ -7,7 +7,7 @@ connection.on('initActivity', function(data){
 });
 
 connection.on('clickedNext', function(){
-    var config = JSON.parse(document.querySelector('#').value);
+    var config = JSON.parse(document.querySelector('#configJson').value);
     console.log('Payload Salvamento: ' + config);
     connection.trigger('updateActivity', config);
 });
